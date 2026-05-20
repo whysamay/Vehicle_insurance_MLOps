@@ -88,3 +88,5 @@
         and push model from AWS S3 bucket. 
       * Inside "entity" dir we will have an "s3_estimator.py" file containing all the func to pull/push
         data from s3 bucket.
+
+24. Now we will start our work on "Model Evaluation" and "Model Pusher" component.
