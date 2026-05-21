@@ -143,4 +143,4 @@ async def predictRouteClient(request: Request):
 
 # Main entry point to start the FastAPI server
 if __name__ == "__main__":
-    app_run(app, host=APP_HOST, port=APP_PORT)
+    app_run("app:app", host=APP_HOST, port=APP_PORT, reload=False)
